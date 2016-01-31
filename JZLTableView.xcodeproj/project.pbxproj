@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		57B75A1D1C5E474900D37B4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B75A1C1C5E474900D37B4E /* AppDelegate.swift */; };
-		57B75A1F1C5E474900D37B4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B75A1E1C5E474900D37B4E /* ViewController.swift */; };
 		57B75A221C5E474900D37B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B75A201C5E474900D37B4E /* Main.storyboard */; };
 		57B75A241C5E474900D37B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B75A231C5E474900D37B4E /* Assets.xcassets */; };
 		57B75A271C5E474900D37B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B75A251C5E474900D37B4E /* LaunchScreen.storyboard */; };
+		57B75A2F1C5E47F300D37B4E /* JZLTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B75A2E1C5E47F300D37B4E /* JZLTableViewController.swift */; };
+		57B75A311C5E4E0B00D37B4E /* JZLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B75A301C5E4E0B00D37B4E /* JZLTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57B75A191C5E474900D37B4E /* JZLTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZLTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B75A1C1C5E474900D37B4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57B75A1E1C5E474900D37B4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57B75A211C5E474900D37B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57B75A231C5E474900D37B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57B75A261C5E474900D37B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57B75A281C5E474900D37B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B75A2E1C5E47F300D37B4E /* JZLTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLTableViewController.swift; sourceTree = "<group>"; };
+		57B75A301C5E4E0B00D37B4E /* JZLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JZLTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				57B75A1C1C5E474900D37B4E /* AppDelegate.swift */,
-				57B75A1E1C5E474900D37B4E /* ViewController.swift */,
+				57B75A2E1C5E47F300D37B4E /* JZLTableViewController.swift */,
+				57B75A301C5E4E0B00D37B4E /* JZLTableViewCell.swift */,
 				57B75A201C5E474900D37B4E /* Main.storyboard */,
 				57B75A231C5E474900D37B4E /* Assets.xcassets */,
 				57B75A251C5E474900D37B4E /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57B75A1F1C5E474900D37B4E /* ViewController.swift in Sources */,
+				57B75A311C5E4E0B00D37B4E /* JZLTableViewCell.swift in Sources */,
+				57B75A2F1C5E47F300D37B4E /* JZLTableViewController.swift in Sources */,
 				57B75A1D1C5E474900D37B4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				57B75A2D1C5E474900D37B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
